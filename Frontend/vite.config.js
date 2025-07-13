@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3001,
     proxy: {
       "/api": {
-        target: "http://localhost:8080",
+        target: "https://chapwith-1-bec.onrender.com",
         changeOrigin: true,
       },
     },
